@@ -5,6 +5,10 @@
 - NodeJS ^8.9
 - npm ^5.6
 
+## Install & Run Application
+- npm install
+- npm start
+
 ## Approach
 - Use Express to create the server and handle routing
 - Create HTML with Bootstrap styles
