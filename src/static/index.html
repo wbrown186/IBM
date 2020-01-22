@@ -1,0 +1,34 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<title>Challenge 1</title>
+</head>
+
+<body class="bg-dark text-light">
+	<main class="mx-auto w-auto">
+		<section>
+			<p>You are given a positive integer N, and two single-digit integers p and q, where p != q and both are greater than 1. You must output all of the integers from 1 to N inclusive, separated by a single space.
+				However, any integer divisible by p whose decimal representation does not contain the digit p should be replaced by the text WAT and any integer divisible by q whose decimal representation does not contain the digit q should be replaced by the text SON. Integers for which both of the preceding statements are true should instead be replaced by the text WATSON.</p>
+
+			Input
+			<p>A single line on standard input per testcase: N p q</p>
+
+			Output
+			<p>The space-separated sequence as described above (only numbers and uppercase chars), with no leading or trailing spaces.</p>
+		</section>
+		<section class="mt-4">
+			<label>Please enter a positive integer and two single digit integers each separated by spaces.</label>
+			<input type="text" name="inputNumbers" class="form-control w-25"/>
+
+			<input type="button" onclick="getInput()" class="mt-4 form-control w-25" value="Print List">
+		</section>
+		<section class="mt-4">
+			<label>Result</label>
+			<article name="result"></article>
+		</section>
+	</main>
+	<script type="text/javascript" src="functions.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "watson-integers",
+  "version": "1.0.0",
+  "description": "IBM Challenge 1",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
